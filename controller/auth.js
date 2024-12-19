@@ -33,7 +33,7 @@ controller.register = async (req, res) => {
         })
 
         res.json({
-            message: "Email Already Exist",
+            message: "success",
             result
         })
     }
