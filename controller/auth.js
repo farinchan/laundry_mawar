@@ -60,7 +60,7 @@ controller.login = async (req, res) => {
         res.header("auth-token", token)
 
         res.json({
-            messsage: "logged In",
+            message: "logged In",
             token: token,
             name: result.name,  
             email: result.email
